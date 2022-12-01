@@ -1,5 +1,7 @@
 # Information  
-## Dataset: UIT-ViCTSD and ViHSD  
+## Dataset: 
+We use two Vietnamese datasets: UIT-ViCTSD and ViHSD  
+The dataset are available in this link: https://sites.google.com/uit.edu.vn/uit-nlp/datasets-projects 
 ## Models:
 + Deep neural model: TextCNN and GRU  
 + Multilingual transformers: mBERT, XLM-R, and DistilBERT  
