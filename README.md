@@ -6,6 +6,9 @@ The dataset are available in this link: https://sites.google.com/uit.edu.vn/uit-
 + Deep neural model: TextCNN and GRU  
 + Multilingual transformers: mBERT, XLM-R, and DistilBERT  
 + Monololingual transformers: PhoBERT, BERT4News, and VELECTRA   
+## Method: 
++ EDA: Data augmentation on minority classes.
++ Focal loss: Loss function that treat the sample in the minority class by down-weighting the impact of majority examples
 
 # Source code file name convention:
 The source code are written in Python with Jupyter notebook
@@ -22,4 +25,16 @@ The name of the files are written as follow: "&lt;dataset&gt; &lt;type of models
 
 
 # Publication 
-to be announced  
+Luu, S.T., Van Nguyen, K. & Nguyen, N.LT. An approach of data augmentation to improve the performance of BERTology models for Vietnamese hate speech detection. Multimed Tools Appl (2023). https://doi.org/10.1007/s11042-023-16968-5     
+
+Cite as: 
+```
+@article{luu2023approach,
+  title={An approach of data augmentation to improve the performance of BERTology models for vietnamese hate speech detection},
+  author={Luu, Son T and Van Nguyen, Kiet and Nguyen, Ngan Luu-Thuy},
+  journal={Multimedia Tools and Applications},
+  pages={1--21},
+  year={2023},
+  publisher={Springer}
+}
+```
